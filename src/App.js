@@ -13,6 +13,9 @@ function App() {
 
 	const addItem = item => {
 		// add the given item to the cart
+		//mapping through array to add onto the already existing array
+		//spread operator
+		 setCart([...cart, item])
 	};
 
 	return (
